@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+/* configuraçào de tela deitado */
+
+body{
+    
+    background-image: url("../img/cev-landscape.jpg");
+    background-position: left bottom;
+    image-orientation: flip;
+}
+
+h1{
+    color: rgb(226, 43, 186);
+}

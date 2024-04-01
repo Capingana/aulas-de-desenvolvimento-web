@@ -1,0 +1,16 @@
+*{
+    margin: 10px;
+    padding: 10px;
+}
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: salmon;
+}
+header{
+    display: none;
+}
+article::after{
+    content: "Este artigo foi impresso através do site www.capsof.com";
+}

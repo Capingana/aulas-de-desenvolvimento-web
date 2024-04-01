@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+
+/* configuraçào de tela em pe */
+
+body{
+    
+    background-image: url("../img/cev-portrait.jpg");
+}
+
+h1{
+    color: red;
+}
