@@ -1,0 +1,59 @@
+/* gerias */
+
+@charset "utf-8";
+
+@media all{
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    body{
+        
+        background-color: #4646db;
+        width: 100vw;
+        height: 100vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+/* retrato */
+
+@media screen and (orientation:portrait){
+    body{
+    
+        background-image: url("../img/cev-portrait.jpg");
+    }
+    
+    h1{
+        color: red;
+    }
+}
+
+/* paisagem */
+
+@media screen and (orientation:landscape){
+    body{
+    
+        background-image: url("../img/cev-landscape.jpg");
+        background-position: left bottom;
+        image-orientation: flip;
+    }
+    
+    h1{
+       color: white;
+    }
+    
+}
+
+@media print{
+    h1{
+        background-color: red;
+        font-size: 2em;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+ 
+}
