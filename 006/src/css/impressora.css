@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* ESTILO PARA IMPRESSORA */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 1.5em;
+    line-height: 1.5em;
+}
+
+menu{
+    display: none;
+}
+article::after{
+    content: "Este documento foi impresso a partir do sistema de gestão de Estudante.SIGAF";
+}
+
+
+header >h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+p{
+    text-align: justify;
+    text-indent: 30px;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/media_query.css">
+    <title>Media Queries</title>
+</head>
+
+<body onresize="mudoutela()">
+    <header class="header-page">
+        <h1>
+            <img src="./img/logo.png" alt="" srcset="">
+        </h1>
+        <i>
+            <img src="./img/menu.png" alt="menu" srcset="" id="burguer" onclick="clickMenu()">
+        </i>
+        <menu id="itens">
+            <ul class="lista">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Quem somos?</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main class="container">
+        <section class="section-container">
+            <article>
+                <h2>Notícias actualizadas</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam dicta modi cumque dolor et culpa
+                    quae facilis voluptate consectetur quas, beatae necessitatibus totam molestiae illo ipsum quidem, ea
+                    sed obcaecati?
+                    Incidunt exercitationem temporibus tempore, consequatur expedita numquam, natus eos, accusantium
+                    sunt magnam reiciendis at voluptatem excepturi dignissimos veniam voluptatum. Reiciendis ab
+                    laboriosam possimus nostrum quas, fuga asperiores ratione inventore labore!
+                    Beatae quidem consequuntur quaerat repellat perspiciatis, totam ratione hic deserunt et error animi.
+                    Nisi, dolorem quibusdam magni optio sint, accusamus exercitationem quaerat officia voluptates nam
+                    laudantium, vero ipsam eaque. Reprehenderit!
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam dicta modi cumque dolor et culpa
+                    quae facilis voluptate consectetur quas, beatae necessitatibus totam molestiae illo ipsum quidem, ea
+                    sed obcaecati?
+                    Incidunt exercitationem temporibus tempore, consequatur expedita numquam, natus eos, accusantium
+                    sunt magnam reiciendis at voluptatem excepturi dignissimos veniam voluptatum. Reiciendis ab
+                    laboriosam possimus nostrum quas, fuga asperiores ratione inventore labore!
+                    Beatae quidem consequuntur quaerat repellat perspiciatis, totam ratione hic deserunt et error animi.
+                    Nisi, dolorem quibusdam magni optio sint, accusamus exercitationem quaerat officia voluptates nam
+                    laudantium, vero ipsam eaque. Reprehenderit!
+                </p>
+            </article>
+            <article>
+                <h2>Notícias actualizadas</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam dicta modi cumque dolor et culpa
+                    quae facilis voluptate consectetur quas, beatae necessitatibus totam molestiae illo ipsum quidem, ea
+                    sed obcaecati?
+                    Incidunt exercitationem temporibus tempore, consequatur expedita numquam, natus eos, accusantium
+                    sunt magnam reiciendis at voluptatem excepturi dignissimos veniam voluptatum. Reiciendis ab
+                    laboriosam possimus nostrum quas, fuga asperiores ratione inventore labore!
+                    Beatae quidem consequuntur quaerat repellat perspiciatis, totam ratione hic deserunt et error animi.
+                    Nisi, dolorem quibusdam magni optio sint, accusamus exercitationem quaerat officia voluptates nam
+                    laudantium, vero ipsam eaque. Reprehenderit!
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam dicta modi cumque dolor et culpa
+                    quae facilis voluptate consectetur quas, beatae necessitatibus totam molestiae illo ipsum quidem, ea
+                    sed obcaecati?
+                    Incidunt exercitationem temporibus tempore, consequatur expedita numquam, natus eos, accusantium
+                    sunt magnam reiciendis at voluptatem excepturi dignissimos veniam voluptatum. Reiciendis ab
+                    laboriosam possimus nostrum quas, fuga asperiores ratione inventore labore!
+                    Beatae quidem consequuntur quaerat repellat perspiciatis, totam ratione hic deserunt et error animi.
+                    Nisi, dolorem quibusdam magni optio sint, accusamus exercitationem quaerat officia voluptates nam
+                    laudantium, vero ipsam eaque. Reprehenderit!
+                </p>
+            </article>
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+    <script>
+        function mudoutela() {
+            if (window.innerWidth > 768) {
+                itens.style.display = 'block';
+            } else {
+                itens.style.display = 'none';
+            }
+        }
+
+
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none';
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+
+</html>
